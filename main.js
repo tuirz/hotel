@@ -58,13 +58,22 @@ if (document.getElementById('restauration-container')) {
     .then(res => res.json())
     .then(data => {
       const container = document.getElementById('restauration-container');
-      container.innerHTML = data.map(item => `
-        <div class="bg-white rounded shadow p-4 mb-4">
-          <h2 class="text-xl font-bold mb-2">${item.nom}</h2>
-          <p>${item.description}</p>
-          <p class="font-semibold mt-2">${item.prix} €</p>
+      container.innerHTML = `
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-4xl mx-auto">
+          ${data.map(item => `
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col items-stretch w-full">
+              <div class="relative w-full aspect-square overflow-hidden">
+                <img src="${item.image || ''}" alt="${item.nom}" class="object-cover w-full h-full transition-transform duration-300 hover:scale-105" />
+              </div>
+              <div class="flex-1 flex flex-col justify-end p-4 bg-gradient-to-t from-white/90 to-white/60">
+                <h2 class="text-xl font-bold mb-1 text-blue-900">${item.nom}</h2>
+                <p class="text-gray-700 text-sm mb-2">${item.description}</p>
+                <div class="text-lg font-semibold text-indigo-700">${item.prix ? item.prix + ' €' : ''}</div>
+              </div>
+            </div>
+          `).join('')}
         </div>
-      `).join('');
+      `;
     });
 }
 
@@ -74,12 +83,16 @@ if (document.getElementById('services-container')) {
     .then(res => res.json())
     .then(data => {
       const container = document.getElementById('services-container');
-      container.innerHTML = data.map(item => `
-        <div class="bg-white rounded shadow p-4 mb-4">
-          <h2 class="text-xl font-bold mb-2">${item.nom}</h2>
-          <p>${item.description}</p>
+      container.innerHTML = `
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-4xl mx-auto">
+          ${data.map(item => `
+            <div class="bg-white rounded-2xl shadow-xl flex flex-col items-stretch w-full p-6 mb-2">
+              <h2 class="text-xl font-bold mb-2 text-blue-900">${item.nom}</h2>
+              <p class="text-gray-700 text-base mb-2">${item.description}</p>
+            </div>
+          `).join('')}
         </div>
-      `).join('');
+      `;
     });
 }
 

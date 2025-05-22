@@ -10,5 +10,35 @@
     "nom": "Petit Déjeuner Buffet",
     "description": "Buffet à volonté sucré/salé.",
     "prix": 15
+  },
+  {
+    "nom": "Restaurant Astral",
+    "description": "Cuisine gastronomique étoilée, menu dégustation inspiré des constellations, grande verrière avec vue sur le ciel.",
+    "prix": 65,
+    "image": "images/restaurant-astral.jpg"
+  },
+  {
+    "nom": "Brasserie Galaxie",
+    "description": "Ambiance conviviale, plats traditionnels revisités, terrasse extérieure, service en continu.",
+    "prix": 28,
+    "image": "images/brasserie-galaxie.jpg"
+  },
+  {
+    "nom": "Bar Cosmique",
+    "description": "Cocktails créatifs, sélection de vins et champagnes, ambiance lounge sous une voûte étoilée.",
+    "prix": 12,
+    "image": "images/bar-cosmique.jpg"
+  },
+  {
+    "nom": "Salon Lune Bleue",
+    "description": "Salon de thé raffiné, pâtisseries maison, thés rares, vue sur le jardin céleste.",
+    "prix": 9,
+    "image": "images/salon-lune-bleue.jpg"
+  },
+  {
+    "nom": "Room Service",
+    "description": "Carte variée disponible 24h/24, spécialités locales et internationales, service discret en chambre.",
+    "prix": 18,
+    "image": "images/room-service.jpg"
   }
 ]

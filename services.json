@@ -2,11 +2,51 @@
   {
     "id": 1,
     "nom": "Spa & Bien-être",
-    "description": "Accès au spa, sauna, hammam et massages."
+    "description": "Espace spa, sauna, hammam, massages et soins du corps pour une détente absolue."
   },
   {
     "id": 2,
     "nom": "Salle de sport",
-    "description": "Salle équipée, cours collectifs et coaching."
+    "description": "Salle de fitness moderne, équipements cardio et musculation, coach sur demande."
+  },
+  {
+    "id": 3,
+    "nom": "Observatoire Rooftop",
+    "description": "Accès au rooftop avec télescopes, soirées d’observation guidées, prêt de jumelles."
+  },
+  {
+    "id": 4,
+    "nom": "Navette aéroport",
+    "description": "Transfert privé depuis/vers l’aéroport, sur réservation, 24h/24."
+  },
+  {
+    "id": 5,
+    "nom": "Conciergerie 24h/24",
+    "description": "Réservations, conseils touristiques, organisation d’excursions et services personnalisés."
+  },
+  {
+    "id": 6,
+    "nom": "Kids Club",
+    "description": "Espace enfants sécurisé, animations, jeux éducatifs et ateliers créatifs."
+  },
+  {
+    "id": 7,
+    "nom": "Location de vélos électriques",
+    "description": "Découverte de la ville et des environs en toute liberté, casques fournis."
+  },
+  {
+    "id": 8,
+    "nom": "Service de blanchisserie",
+    "description": "Nettoyage et repassage de vos vêtements sous 24h."
+  },
+  {
+    "id": 9,
+    "nom": "Parking privé sécurisé",
+    "description": "Parking gratuit réservé à la clientèle de l’hôtel, bornes de recharge électrique."
+  },
+  {
+    "id": 10,
+    "nom": "Room service 24h/24",
+    "description": "Carte variée disponible à toute heure, service discret en chambre."
   }
 ]
