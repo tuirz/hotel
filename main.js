@@ -83,7 +83,25 @@ if (document.getElementById('services-container')) {
     });
 }
 
-// Célébrités
+// API Célébrités
+if (document.getElementById('celebrites-container')) {
+  fetch('celebrites.json')
+    .then(res => res.json())
+    .then(data => {
+      const container = document.getElementById('celebrites-container');
+      container.innerHTML = data.map(item => `
+        <div class="bg-white rounded-2xl shadow-xl p-6 flex flex-col md:flex-row gap-6 items-center mb-6">
+          <img src="${item.image || 'https://source.unsplash.com/128x128/?portrait,person'}" alt="${item.nom}" class="w-32 h-32 object-cover rounded-xl shadow-md bg-gray-200" />
+          <div class="flex-1">
+            <h3 class="text-2xl font-bold mb-2 text-blue-900">${item.nom}</h3>
+            <p class="mb-2 text-gray-700">${item.specialite ? item.specialite + ' — ' : ''}${item.nationalite || ''}</p>
+            <div class="text-lg font-semibold text-indigo-700">${item.description || ''}</div>
+            <div class="italic text-sm text-gray-500 mt-2">Anecdote : ${item.anecdote || ''}</div>
+          </div>
+        </div>
+      `).join('');
+    });
+}
 
 // FAQ interactive
 document.addEventListener('DOMContentLoaded', () => {

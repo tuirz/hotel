@@ -12,5 +12,47 @@
     "description": "Confort et élégance pour un séjour agréable.",
     "prix": 120,
     "image": "chambre-classique.jpg"
+  },
+  {
+    "id": 3,
+    "type": "Suite panoramique",
+    "description": "Une suite luxueuse avec vue à 180° sur le ciel étoilé, terrasse privée, jacuzzi et télescope.",
+    "prix": 420,
+    "image": "images/suite-panoramique.jpg"
+  },
+  {
+    "id": 4,
+    "type": "Chambre double Constellation",
+    "description": "Chambre double élégante, décoration céleste, balcon et accès à la piscine.",
+    "prix": 180,
+    "image": "images/chambre-constellation.jpg"
+  },
+  {
+    "id": 5,
+    "type": "Chambre familiale Galaxie",
+    "description": "Idéale pour 4 personnes, espace enfants, grande salle de bain, vue sur le jardin.",
+    "prix": 220,
+    "image": "images/chambre-galaxie.jpg"
+  },
+  {
+    "id": 6,
+    "type": "Chambre simple Nova",
+    "description": "Parfaite pour une personne, ambiance apaisante, literie haut de gamme.",
+    "prix": 120,
+    "image": "images/chambre-nova.jpg"
+  },
+  {
+    "id": 7,
+    "type": "Chambre Deluxe Orion",
+    "description": "Chambre spacieuse, lit king size, coin salon, grande baie vitrée sur la Voie lactée.",
+    "prix": 250,
+    "image": "images/chambre-orion.jpg"
+  },
+  {
+    "id": 8,
+    "type": "Chambre romantique Lune de Miel",
+    "description": "Ambiance romantique, baignoire balnéo, pétales de rose, vue sur la lune.",
+    "prix": 300,
+    "image": "images/chambre-lune-de-miel.jpg"
   }
 ]

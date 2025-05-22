@@ -1,0 +1,66 @@
+[
+  {
+    "nom": "Elon Musk",
+    "description": "Entrepreneur, fondateur de SpaceX, Tesla, Neuralink, et X (ex-Twitter).",
+    "image": "images/elon-musk.jpg",
+    "specialite": "Entrepreneur, ingénieur",
+    "nationalite": "Sud-africain, Canadien, Américain",
+    "anecdote": "Elon Musk a proposé d’installer une rampe de lancement de fusées sur le toit de l’Oasis Céleste."
+  },
+  {
+    "nom": "Beyoncé",
+    "description": "Chanteuse, compositrice, actrice et productrice américaine, icône mondiale de la pop et du R&B.",
+    "image": "images/beyonce.jpg",
+    "specialite": "Chanteuse, actrice",
+    "nationalite": "Américaine",
+    "anecdote": "Beyoncé a improvisé un concert privé sous la coupole étoilée de l’hôtel."
+  },
+  {
+    "nom": "Serena Williams",
+    "description": "Joueuse de tennis américaine, l’une des plus grandes championnes de l’histoire du sport.",
+    "image": "images/serena-williams.jpg",
+    "specialite": "Sportive, tenniswoman",
+    "nationalite": "Américaine",
+    "anecdote": "Serena Williams a organisé un tournoi de tennis nocturne sur le toit de l’hôtel."
+  },
+  {
+    "nom": "Timothée Chalamet",
+    "description": "Acteur franco-américain, star montante du cinéma international.",
+    "image": "images/timothee-chalamet.jpg",
+    "specialite": "Acteur",
+    "nationalite": "Franco-américain",
+    "anecdote": "Timothée Chalamet a tourné une scène de film dans la suite panoramique de l’hôtel."
+  },
+  {
+    "nom": "Zendaya",
+    "description": "Actrice, chanteuse et mannequin américaine, connue pour ses rôles dans Euphoria et Spider-Man.",
+    "image": "images/zendaya.jpg",
+    "specialite": "Actrice, chanteuse",
+    "nationalite": "Américaine",
+    "anecdote": "Zendaya a animé une soirée cinéma sous les étoiles pour les clients de l’hôtel."
+  },
+  {
+    "nom": "Emma Watson",
+    "description": "Actrice et militante britannique, célèbre pour son rôle d’Hermione Granger dans Harry Potter.",
+    "image": "images/emma-watson.jpg",
+    "specialite": "Actrice, militante",
+    "nationalite": "Britannique",
+    "anecdote": "Emma Watson a organisé un atelier de lecture sur la terrasse de l’hôtel."
+  },
+  {
+    "nom": "Cristiano Ronaldo",
+    "description": "Footballeur portugais, l’un des plus grands joueurs de l’histoire du football.",
+    "image": "images/cristiano-ronaldo.jpg",
+    "specialite": "Footballeur",
+    "nationalite": "Portugais",
+    "anecdote": "Cristiano Ronaldo a donné un cours de fitness matinal aux clients de l’hôtel."
+  },
+  {
+    "nom": "Greta Thunberg",
+    "description": "Militante écologiste suédoise, figure mondiale de la lutte contre le changement climatique.",
+    "image": "images/greta-thunberg.jpg",
+    "specialite": "Militante écologiste",
+    "nationalite": "Suédoise",
+    "anecdote": "Greta Thunberg a animé un atelier sur l’astronomie et l’écologie à l’Oasis Céleste."
+  }
+]
