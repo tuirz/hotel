@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "nom": "Spa & Bien-être",
+    "description": "Accès au spa, sauna, hammam et massages."
+  },
+  {
+    "id": 2,
+    "nom": "Salle de sport",
+    "description": "Salle équipée, cours collectifs et coaching."
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "type": "Suite Royale",
+    "description": "Une suite luxueuse avec vue panoramique sur la ville.",
+    "prix": 350,
+    "image": "suite-royale.jpg"
+  },
+  {
+    "id": 2,
+    "type": "Chambre Classique",
+    "description": "Confort et élégance pour un séjour agréable.",
+    "prix": 120,
+    "image": "chambre-classique.jpg"
+  }
+]

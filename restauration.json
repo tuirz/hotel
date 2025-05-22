@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "nom": "Menu Gourmet",
+    "description": "Entrée, plat, dessert avec produits locaux.",
+    "prix": 45
+  },
+  {
+    "id": 2,
+    "nom": "Petit Déjeuner Buffet",
+    "description": "Buffet à volonté sucré/salé.",
+    "prix": 15
+  }
+]

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restauration - L’Oasis Céleste</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-gray-100 min-h-screen flex flex-col">
+    <header class="bg-gradient-to-r from-blue-900 via-indigo-900 to-black text-white p-4 shadow-lg">
+      <div class="flex flex-row items-center justify-between max-w-5xl mx-auto w-full">
+        <div class="flex flex-row items-center gap-2 md:gap-4">
+          <!-- Logo étoile stylisé -->
+          <svg width="44" height="44" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" class="mb-0">
+            <circle cx="30" cy="30" r="28" stroke="#fff" stroke-width="2" fill="url(#star-gradient)"/>
+            <polygon points="30,10 34,26 50,26 37,36 41,52 30,42 19,52 23,36 10,26 26,26" fill="#fff" opacity="0.8"/>
+            <defs>
+              <radialGradient id="star-gradient" cx="0.5" cy="0.5" r="0.5" fx="0.5" fy="0.5">
+                <stop offset="0%" stop-color="#a5b4fc"/>
+                <stop offset="100%" stop-color="#1e3a8a"/>
+              </radialGradient>
+            </defs>
+          </svg>
+          <div class="text-left">
+            <h1 class="text-2xl md:text-3xl font-bold tracking-wide leading-tight">L’Oasis Céleste</h1>
+            <p class="italic text-base md:text-lg">Dormez la tête dans les étoiles</p>
+          </div>
+        </div>
+        <!-- Burger menu button (toujours visible en mobile) -->
+        <button id="burger-btn" class="md:hidden ml-2 p-2 focus:outline-none" aria-label="Ouvrir le menu">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+        <!-- Navigation -->
+        <nav id="main-nav" class="mt-4 md:mt-0 flex-col md:flex-row flex-wrap justify-center md:justify-end items-center gap-2 md:gap-4 hidden md:flex bg-gradient-to-b from-blue-900 via-indigo-900 to-black md:bg-none absolute md:static left-0 right-0 top-full z-20 p-4 md:p-0 rounded-b shadow md:shadow-none" style="top:72px;">
+          <a href="index.html" class="hover:underline">Accueil</a>
+          <a href="hebergement.html" class="hover:underline">Hébergement</a>
+          <a href="restauration.html" class="hover:underline font-bold">Restauration</a>
+          <a href="services.html" class="hover:underline">Services</a>
+          <a href="celebrites.html" class="hover:underline">Célébrités</a>
+          <a href="contact.html" class="hover:underline">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <script src="main.js"></script>
+    <main class="flex-1 p-4" id="restauration-container">
+      <!-- Les menus seront chargés ici par JS -->
+    </main>
+    <footer class="relative bg-gradient-to-r from-blue-900 via-indigo-900 to-black text-white p-4 text-center mt-8 overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1200&q=80" alt="Ciel étoilé" class="absolute inset-0 w-full h-full object-cover object-center opacity-30 pointer-events-none select-none" />
+      <div class="relative z-10">
+        <div class="mb-2 font-semibold text-lg drop-shadow">&copy; 2025 L’Oasis Céleste</div>
+        <div class="flex justify-center gap-4 mb-2">
+          <a href="#" class="hover:underline transition">Instagram</a>
+          <a href="#" class="hover:underline transition">Facebook</a>
+          <a href="#" class="hover:underline transition">X</a>
+        </div>
+        <div class="mt-2 text-sm italic drop-shadow">12 avenue des Étoiles, 75000 Paris</div>
+        <div class="mt-2 text-xs text-gray-200">Réalisé par <a title="Linkedin" href="https://fr.linkedin.com/in/luigi-soufar">Luigi SOUFAR</a> pour SIMPLON DEV Inté P3 Lens</div>
+      </div>
+    </footer>
+  </body>
+</html>
