@@ -34,16 +34,19 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Hébergement
-if (document.getElementById('hebergements-container')) {
+if (document.getElementById('hebergements-list')) {
   fetch('hebergements.json')
     .then(res => res.json())
     .then(data => {
-      const container = document.getElementById('hebergements-container');
+      const container = document.getElementById('hebergements-list');
       container.innerHTML = data.map(item => `
-        <div class="bg-white rounded shadow p-4 mb-4">
-          <h2 class="text-xl font-bold mb-2">${item.type}</h2>
-          <p>${item.description}</p>
-          <p class="font-semibold mt-2">${item.prix} € / nuit</p>
+        <div class="bg-white rounded-2xl shadow-xl p-6 flex flex-col md:flex-row gap-6 items-center">
+          <img src="${item.image || ''}" alt="${item.type}" class="w-32 h-32 object-cover rounded-xl shadow-md bg-gray-200" />
+          <div class="flex-1">
+            <h3 class="text-2xl font-bold mb-2 text-blue-900">${item.type}</h3>
+            <p class="mb-2 text-gray-700">${item.description}</p>
+            <div class="text-lg font-semibold text-indigo-700">${item.prix} € / nuit</div>
+          </div>
         </div>
       `).join('');
     });
@@ -81,7 +84,8 @@ if (document.getElementById('services-container')) {
 }
 
 // Célébrités
-// FAQ interactive (ouvrir/fermer)
+
+// FAQ interactive
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.faq-toggle').forEach(btn => {
     btn.addEventListener('click', function() {
@@ -94,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// Carrousel avis clients (page d'accueil)
+// Carrousel avis clients
 document.addEventListener('DOMContentLoaded', () => {
   const carousel = document.getElementById('carousel-avis');
   if (!carousel) return;
@@ -126,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// Feedback succès réservation (page d'accueil)
+// Feedback succès réservation
 document.addEventListener('DOMContentLoaded', () => {
   const resaForm = document.getElementById('resa-form');
   const resaSuccess = document.getElementById('resa-success');
@@ -136,6 +140,20 @@ document.addEventListener('DOMContentLoaded', () => {
       resaForm.reset();
       resaSuccess.classList.remove('hidden');
       setTimeout(() => resaSuccess.classList.add('hidden'), 5000);
+    });
+  }
+});
+
+// Feedback succès contact
+document.addEventListener('DOMContentLoaded', () => {
+  const contactForm = document.getElementById('form-contact');
+  const contactSuccess = document.getElementById('contact-success');
+  if (contactForm && contactSuccess) {
+    contactForm.addEventListener('submit', e => {
+      e.preventDefault();
+      contactForm.reset();
+      contactSuccess.classList.remove('hidden');
+      setTimeout(() => contactSuccess.classList.add('hidden'), 5000);
     });
   }
 });
