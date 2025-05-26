@@ -5,14 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>L’Oasis Céleste</title>
     <link rel="stylesheet" href="output.css" />
-    <!-- Google Fonts : Cormorant Garamond & Orbitron -->
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <meta name="description" content="L’Oasis Céleste, hôtel de luxe à Paris sur le thème de l’astronomie : chambres panoramiques, spa, rooftop, gastronomie, événements et services haut de gamme. Séjournez la tête dans les étoiles dans un cadre unique et moderne." />
+    <meta name="keywords" content="hôtel, luxe, Paris, astronomie, rooftop, spa, bien-être, gastronomie, événements, chambres, étoiles, séjour, réservation, bar, restaurant, services, vue panoramique, détente, massages, observation, télescope, famille, romantique, moderne" />
+    <meta name="author" content="L’Oasis Céleste, Luigi Soufar, SIMPLON" />
+    <meta property="og:title" content="L’Oasis Céleste – Hôtel de luxe astronomie à Paris" />
+    <meta property="og:description" content="Séjournez dans un hôtel unique à Paris : luxe, astronomie, rooftop, spa, gastronomie, événements et services haut de gamme. Réservez votre expérience céleste." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1600&q=80" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://oasis-celeste.fr/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="L’Oasis Céleste – Hôtel de luxe astronomie à Paris" />
+    <meta name="twitter:description" content="Hôtel de luxe à Paris sur le thème de l’astronomie : chambres panoramiques, spa, rooftop, gastronomie, événements et services haut de gamme." />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1600&q=80" />
   </head>
   <body class="bg-gray-100 min-h-screen flex flex-col">
     <header class="bg-gradient-to-r from-blue-900 via-indigo-900 to-black text-white p-4 shadow-lg">
       <div class="flex flex-row items-center justify-between max-w-5xl mx-auto w-full">
         <div class="flex flex-row items-center gap-2 md:gap-4">
-          <!-- Logo -->
+
           <svg width="44" height="44" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" class="mb-0">
             <circle cx="30" cy="30" r="28" stroke="#fff" stroke-width="2" fill="url(#star-gradient)"/>
             <polygon points="30,10 34,26 50,26 37,36 41,52 30,42 19,52 23,36 10,26 26,26" fill="#fff" opacity="0.8"/>
@@ -28,13 +39,13 @@
             <p class="italic text-base md:text-lg">Dormez la tête dans les étoiles</p>
           </div>
         </div>
-        <!-- Burger -->
+
         <button id="burger-btn" class="md:hidden ml-2 p-2 focus:outline-none" aria-label="Ouvrir le menu">
           <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
-        <!-- Nav -->
+
         <nav id="main-nav" class="mt-4 md:mt-0 flex-col md:flex-row flex-wrap justify-center md:justify-end items-center gap-2 md:gap-4 hidden md:flex bg-gradient-to-b from-blue-900 via-indigo-900 to-black md:bg-none absolute md:static left-0 right-0 top-full z-20 p-4 md:p-0 rounded-b shadow md:shadow-none"
           style="top:72px;">
           <a href="index.html" class="hover:underline font-bold">Accueil</a>
@@ -48,7 +59,6 @@
     </header>
     <script src="main.js"></script>
 
-    <!-- Hero -->
     <section class="relative w-full h-[60vh] min-h-[400px] flex items-center justify-center mb-12 overflow-hidden">
       <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1600&q=80" alt="Voie lactée" class="absolute inset-0 w-full h-full object-cover object-center scale-105" />
       <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-transparent to-black/80"></div>
@@ -60,7 +70,7 @@
     </section>
     <main class="flex-1 flex flex-col items-center w-full">
 
-      <!-- points forts -->
+      <!-- Point fort -->
       <section class="w-full max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 px-4">
         <div class="md:col-span-2 bg-gradient-to-br from-indigo-900 to-blue-900 text-white rounded-2xl p-10 flex flex-col md:flex-row items-center shadow-xl hover:scale-105 transition-transform duration-300">
           <span class="text-6xl mb-6 md:mb-0 md:mr-8">🌠</span>
@@ -76,7 +86,7 @@
         </div>
       </section>
 
-      <!-- Avis -->
+      <!--Avis-->
       <section class="w-full max-w-3xl mb-12 px-4">
         <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center tracking-tight">Avis de nos clients</h2>
         <div id="carousel-avis" class="relative overflow-hidden rounded-2xl shadow-lg bg-white/90">
