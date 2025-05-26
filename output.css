@@ -705,6 +705,10 @@ h1, h2, h3, .font-orbitron {
   margin-top: 2rem;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -757,6 +761,10 @@ h1, h2, h3, .font-orbitron {
   height: 100%;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .min-h-\[400px\] {
   min-height: 400px;
 }
@@ -783,6 +791,10 @@ h1, h2, h3, .font-orbitron {
 
 .w-full {
   width: 100%;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .min-w-0 {
